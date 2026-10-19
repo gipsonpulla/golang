@@ -27,7 +27,9 @@ jobs:
           cache: false
 
       - name: Build
+        working-directory: ./basics
         run: go build -v .
       
       - name: Run
+        working-directory: ./basics
         run: go run .
