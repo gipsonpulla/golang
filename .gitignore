@@ -1,0 +1,32 @@
+# Binaries and Executables
+# (Go compiles down to a single binary file)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+basics
+bin/
+
+# Test artifacts and coverage profiles
+*.test
+*.out
+*.prof
+coverage.txt
+
+# Go modules and workspace caching
+.go/
+vendor/
+go.work
+go.work.sum# Dependency directories (if using third-party package managers)
+pkg/
+
+# IDEs and Text Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System Files
+.DS_Store
+Thumbs.db
