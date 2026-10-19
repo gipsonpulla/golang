@@ -5,7 +5,6 @@
 *.dll
 *.so
 *.dylib
-basics
 bin/
 
 # Test artifacts and coverage profiles
